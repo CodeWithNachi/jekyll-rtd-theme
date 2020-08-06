@@ -49,6 +49,7 @@ layout: plugins/compress
     <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/favicon.svg">
     <!-- script -->
     <script src="{{ cdn }}/assets/js/jquery.min.js"></script>
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 </head>
 
 <body class="wy-body-for-nav">
@@ -109,6 +110,9 @@ layout: plugins/compress
     {%- include addons/analytics/baidu.liquid -%}
     {%- include addons/analytics/cnzz.liquid -%}
     {%- include addons/analytics/google.liquid -%}
+	<script src="{{ site.baseurl }}/assets/clipboard.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/copy.js"></script>
+
 </body>
 
 </html>

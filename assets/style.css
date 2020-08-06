@@ -1,0 +1,24 @@
+* {margin: 0; padding: 0;}
+
+.highlight {
+	background-color :	 rgba(41,128,185, 0.1);
+	font-weight : bold;
+	color : darkred;
+}
+
+/* modification for button copy */
+.highlight > div{
+  display: block;
+  float: right;
+}
+.btn-copy{
+  color: #FFF;
+  background-color: #2980b9;
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.btn-copy:hover{
+  background-color: rgba(41,128,185, 0.774);
+}
+/* modification for button copy */
