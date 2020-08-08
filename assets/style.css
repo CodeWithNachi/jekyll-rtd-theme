@@ -21,4 +21,10 @@
 .btn-copy:hover{
   background-color: rgba(41,128,185, 0.774);
 }
+
+
+wy-nav-content {
+    max-width: 960px;
+}
+
 /* modification for button copy */
