@@ -70,6 +70,10 @@ layout: plugins/compress
                 <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
                     {% include toctree.liquid %}
                 </div>
+		<div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                    {% include nav.liquid %}
+                </div>
+		
                 {%- if site.embed -%}
                 <div class="wy-embed-wrap">
                     <div class="wy-embed">{{ site.embed }}</div>
