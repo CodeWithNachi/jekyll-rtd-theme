@@ -1,6 +1,6 @@
 {%- include reset/workdir.liquid %}
 
-<ul class="xyz">
+<ul>
     {%- for item in workdir_files -%}
         {%- assign level = item.dir | append: "temp/" | split: "/" | size | minus: 1 -%}
         {%- capture current -%}
